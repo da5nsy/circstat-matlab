@@ -61,7 +61,7 @@ Please cite this paper when the provided code is used. See licensing terms for d
 - `rad2ang`				Convert radian to angular values
 - `ang2rad`				Convert angular to radian values
 
-All functions take arguments in radians (expect for `ang2rad`). For a detailed description of arguments and outputs consult the help text in the files.
+All functions take arguments in radians (except for `ang2rad`). For a detailed description of arguments and outputs consult the help text in the files.
 
 Since 2010, most functions for descriptive statistics can be used in Matlab style matrix computations. As a last argument, add the dimension along which you want to average. This changes the behavior slightly from previous relaeses, in that input is not reshaped anymore into vector format. Per default, all computations are performed columnwise (along dimension 1). If you prefer to use the old functions, for now they are contained in the subdirectory 'old'.
 
